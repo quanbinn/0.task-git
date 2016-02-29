@@ -1,0 +1,1314 @@
+
+<!DOCTYPE html>
+<!--[if lt IE 7 ]> <html lang="en" class="no-js ie6"> <![endif]-->
+<!--[if IE 7 ]>    <html lang="en" class="no-js ie7"> <![endif]-->
+<!--[if IE 8 ]>    <html lang="en" class="no-js ie8"> <![endif]-->
+<!--[if IE 9 ]>    <html lang="en" class="no-js ie9"> <![endif]-->
+<!--[if (gt IE 9)|!(IE)]><!-->
+ <html lang="en" class="no-js"><!--<![endif]-->
+ 
+    <head>
+     
+        <title>Show Foods</title>
+        <link rel="shortcut icon" href="/ndb/static/images/favicon.ico" type="image/x-icon" />
+    
+        
+<link rel="stylesheet" href="/ndb/static/css/main.css" />
+ 
+  <script language="javascript" id="_fed_an_ua_tag" src="http://nal.usda.gov/sites/all/themes/Universal-Federated-Analytics.1.0.js?agency=USDA&subagency=ARS-NAL"></script>
+	<script type="text/JavaScript"> 
+		 var _gaq = _gaq || [];
+		 // NAL 
+		  _gaq.push(['_setAccount', 'UA-28627214-1']);
+		  _gaq.push(['_setDomainName', 'nal.usda.gov']);
+		  _gaq.push(['_setAllowLinker', true]);
+		  _gaq.push(['_trackPageview']);
+		 //
+		// _gaq.push(['_setAccount', 'UA-3876418-1']);
+		//  _gaq.push(['_trackPageview']);
+		  // for NDB
+		  _gaq.push(['_setAccount', 'UA-36442725-1']);
+		  _gaq.push(['_trackPageview']);
+			// USDA servers
+		  _gaq.push(['_setAccount', 'UA-466807-3']);
+		  _gaq.push(['_setDomainName', 'usda.gov']);
+		  _gaq.push(['_setAllowLinker', true]);
+		  _gaq.push(['_trackPageview']);
+		  //
+		  _gaq.push(['a._setAccount', 'UA-27627304-18']);
+		  _gaq.push(['a._setDomainName', 'usda.gov']);
+		  _gaq.push(['a._setAllowLinker', true]);
+		  _gaq.push(['a._trackPageview']);
+			//
+		  _gaq.push(['b._setAccount', 'UA-27627304-1']);
+		  _gaq.push(['b._setDomainName', 'usda.gov']);
+		  _gaq.push(['b._setAllowLinker', true]);
+		  _gaq.push(['b._trackPageview']);
+		 
+		  (function() {
+		    var ga = document.createElement('script'); ga.type = 
+		'text/javascript'; ga.async = true;
+		    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 
+		'http://www') + '.google-analytics.com/ga.js';
+		    var s = document.getElementsByTagName('script')[0]; 
+		s.parentNode.insertBefore(ga, s);
+		  })();
+	</script> 
+      
+     
+          
+                <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+        <meta name="layout" content="main"/>
+        
+        
+       
+                
+
+
+    
+          <script src="/ndb/static/plugins/jquery-1.10.2/js/jquery/jquery-1.10.2.min.js" type="text/javascript" ></script>
+<link href="/ndb/static/css/jquery-ui-1.10.4/smoothness/jquery-ui-1.10.4.custom.min.css" type="text/css" rel="stylesheet" media="screen, projection" />
+<script src="/ndb/static/plugins/jquery-ui-1.10.4/jquery-ui/js/jquery-ui-1.10.4.custom.min.js" type="text/javascript" ></script>
+
+    </head>
+<body style="background:#f7f7f7;">  
+<br/>
+	<div class="section clearfix"> 
+			<div style="padding-left:15px;">
+                <a href="http://www.usda.gov" target="_blank">
+                <img style="float:left;padding:5px;" src="/ndb/static/images/USDA-Logo.jpg" style="border:none;" alt="United States Department of Agriculture" id="USDALOGO" title="United States Department of Agriculture" height="51" width="72">
+                </a>
+                <span style="font-size:1.2em;font-weight:bold;color:#005842;">United States Department of Agriculture
+                <br/>Agricultural Research Service</span>
+                <br/><span style="font-weight:bold;font-size:1.4em;color:#000">
+               
+                
+                 National Nutrient Database for Standard Reference
+                 Release 28
+                 
+                 </span>
+           
+			</div>
+           <div style="padding-left:105px;float:left">
+           </div>
+                
+	</div>
+	<br/>
+
+
+<div class="bodywrapper">
+<div class="nav">
+  
+   
+
+  
+    <ul id="jMenu" class="jMenu">
+  <li>
+    <a href="http://www.ars.usda.gov/main/site_main.htm?modecode=12-35-45-00" title="Go the NDL home page">NDL Home</a>
+  </li>
+  	<li >
+  		<a href="/ndb/foods" class="list" name="menu-advanced" title="Browse the foods list">Food Search</a>
+  		</li>
+  	<li>
+  		<a href="/ndb/nutrients/index" class="list" name="menu-advanced" title="Create a nutrients list report">Nutrients List</a>
+  	</li>
+  	<li>
+  		<a href="/ndb/beef/show" class="calc" title="Use the ground beef calculator">Ground Beef Calculator</a>
+  	</li>
+  	<li><a>Documentation and Help</a>
+  	<ul>
+  	 <li>
+    	<a href="/ndb/doc/index" class="help" title="How to use the NDB API">API</a>
+    </li>
+  
+    <li>
+    	<a href="http://www.ars.usda.gov/sp2UserFiles/Place/80400525/Data/SR/SR28/sr28_doc.pdf" class="docs" title="View and download release documentation" target="_help">SR28 Documentation</a>
+    </li>
+  <li>
+    	<a href="/ndb/help/index" class="help" title="Read help on how to use the website">Help</a>
+    </li>
+    </ul>
+    </li>
+     	<li>
+  		<a href="http://www.ars.usda.gov/main/docs.htm?docid=4445" class="help" title="Click to contact us">Contact Us</a>
+  	</li>
+    
+</ul>
+    <script type="text/javascript">
+    
+  $(document).ready(function(){
+    // simple jMenu plugin called
+    $("#jMenu").jMenu();
+    // more complex jMenu plugin called
+    $("#jMenu").jMenu({
+      ulWidth : 130,
+      absoluteLeft:40,
+      paddingLeft:0,
+      effects : {
+        effectSpeedOpen : 100,
+        effectTypeClose : 'slide'
+      },
+      animatedText : false
+    });
+
+  });
+</script></div>
+ 
+      
+        
+  <div class="wbox">
+  <div id="view-name" style="width:auto">
+       
+     Basic Report:&nbsp;
+   
+        01123, Egg, whole, raw, fresh
+   
+     
+      
+   
+   </h1>
+       </div>
+       <div class="menuButton" >
+     
+                 
+                        	<a href="/ndb/foods?fgcd=&amp;manu=&amp;lfacet=&amp;count=&amp;max=&amp;sort=&amp;qlookup=&amp;offset=&amp;format=Abridged&amp;new=&amp;measureby=" name="search" class="previous" title="Return to results list">Return to Search Results</a><richui:tooltip name="search"/>
+	
+	
+		
+			<a href="/ndb/foods/show/112?fgcd=&amp;man=&amp;lfacet=&amp;count=&amp;max=&amp;sort=&amp;qlookup=&amp;offset=&amp;format=Full&amp;new=&amp;measureby=" name="full" class="list" title="View Full Report">Full Report (All Nutrients)</a><richui:tooltip name="search"/>
+		 
+		
+			<a href="/ndb/foods/show/112?fgcd=&amp;man=&amp;lfacet=&amp;count=&amp;max=&amp;sort=&amp;qlookup=&amp;offset=&amp;format=Stats&amp;new=&amp;measureby=" class="list" name="stats" title="View Statistics Report">Statistics Report</a><richui:tooltip name="search"/>
+		
+	
+
+                 
+                 
+                                 
+                                        <a href="/ndb/foods/show/112?format=Abridged&amp;reportfmt=csv" class="excel">Download (CSV)</a>
+                                        
+                                        
+                                
+                                <a href="/ndb/foods/show/112?format=Abridged&amp;reportfmt=pdf&amp;pdfQvs=%7B%7D" class="docs">Print (PDF)</a>
+                        
+
+         
+            
+            
+            <div class="dialog">
+            
+                
+                        <div id="helpDiv"></div>
+               
+               <!-- NUTRIENT DATA TABLE -->
+               <form action="/ndb/foods/show/112" method="get" >
+                                
+               <input type="hidden" name="man" value="" id="man" />
+               <input type="hidden" name="lfacet" value="" id="lfacet" />
+               <input type="hidden" name="count" value="" id="count" />
+               <input type="hidden" name="max" value="" id="max" />
+               <input type="hidden" name="qlookup" value="" id="qlookup" />
+               <input type="hidden" name="offset" value="" id="offset" />
+               <input type="hidden" name="sort" value="" id="sort" />
+               <input type="hidden" name="format" value="Abridged" id="format" />
+               <input type="hidden" name="reportfmt" value="other" id="reportfmt" />
+               <input type="hidden" name="rptfrm" value="" id="rptfrm" />
+               <input type="hidden" name="ndbno" value="" id="ndbno" />
+               <input type="hidden" name="nutrient1" value="" id="nutrient1" />
+               <input type="hidden" name="nutrient2" value="" id="nutrient2" />
+               <input type="hidden" name="nutrient3" value="" id="nutrient3" />
+               <input type="hidden" name="subset" value="" id="subset" />
+               <input type="hidden" name="totCount" value="" id="totCount" />
+               <input type="hidden" name="measureby" value="" id="measureby" />
+             
+              <div class="nutlist">
+                        
+                    <p style="font-style:italic;font-size:1em"> 
+                    
+                    Nutrient values and weights are for edible portion.
+                    
+                    </p>
+                    
+                      
+                                        
+<table style="width:100%;font-size:.95em" cellspacing="0">
+<thead>
+	<td colspan="11" style="vertical-align:middle;text-align:center;height:2em;" class="buttons"><input type="submit" name="_action_show" value="Apply Changes" class="calc" title="Click to recalculate measures" id="112" /><a href="/ndb/help/contextHelp/measures" onclick="jQuery.ajax({type:'POST', url:'/ndb/help/contextHelp/measures',success:function(data,textStatus){jQuery('#helpDiv').html(data);},error:function(XMLHttpRequest,textStatus,errorThrown){}});return false;" id="measures"><img title="Click for more information on calculating household measures" src="/ndb/static/images/skin/help.png" alt="Help" border="0" style="vertical-align:middle"/></a></span></td></tr>
+
+   <th style="vertical-align:middle;">Nutrient</th>
+	<th style="vertical-align:middle" >Unit</th>
+    <th style="vertical-align:middle"><input type="text" name="Qv" style="width:30px;text-align:right;border-style:inset;height:15px" maxlength="5" value="1" id="Qv" /><br/>Value per 100 g</th>
+     
+      
+  <th style="width:130px;line-height:1.2em;text-align:center">
+  	<input type="text" name="Q346" style="width:30px;text-align:right;border-style:inset;height:15px" maxlength="5" value="1" id="Q346" />
+  	<br/>
+  	large
+  	<br/>50g
+  	</th>
+
+  <th style="width:130px;line-height:1.2em;text-align:center">
+  	<input type="text" name="Q347" style="width:30px;text-align:right;border-style:inset;height:15px" maxlength="5" value="1" id="Q347" />
+  	<br/>
+  	extra large
+  	<br/>56g
+  	</th>
+
+  <th style="width:130px;line-height:1.2em;text-align:center">
+  	<input type="text" name="Q348" style="width:30px;text-align:right;border-style:inset;height:15px" maxlength="5" value="1" id="Q348" />
+  	<br/>
+  	jumbo
+  	<br/>63g
+  	</th>
+
+  <th style="width:130px;line-height:1.2em;text-align:center">
+  	<input type="text" name="Q349" style="width:30px;text-align:right;border-style:inset;height:15px" maxlength="5" value="1" id="Q349" />
+  	<br/>
+  	cup (4.86 large eggs)
+  	<br/>243g
+  	</th>
+
+  <th style="width:130px;line-height:1.2em;text-align:center">
+  	<input type="text" name="Q350" style="width:30px;text-align:right;border-style:inset;height:15px" maxlength="5" value="1" id="Q350" />
+  	<br/>
+  	medium
+  	<br/>44g
+  	</th>
+
+  <th style="width:130px;line-height:1.2em;text-align:center">
+  	<input type="text" name="Q351" style="width:30px;text-align:right;border-style:inset;height:15px" maxlength="5" value="1" id="Q351" />
+  	<br/>
+  	small
+  	<br/>38g
+  	</th>
+
+
+</thead>
+<tbody>
+
+	
+		
+		<tr class="even" >
+	    <td style="font-weight:bold"  bgcolor="#dddddd" colspan="11" > Proximates</td>
+	  	</tr>
+	
+	
+	
+	
+		
+			<tr  style="display:'' id="Proximates-0" class="odd" >
+		
+		<td style="line-height:110%;text-align:left;width:60px;" >Water
+		
+		
+		</td>
+		<td style="text-align:center;width: 30px;">g</td>
+		<td style="text-align:right;width: 30px;">76.15</td>
+		
+		
+			
+				<td style="text-align:right; width:130px;">38.08</td>
+		
+				<td style="text-align:right; width:130px;">42.64</td>
+		
+				<td style="text-align:right; width:130px;">47.97</td>
+		
+				<td style="text-align:right; width:130px;">185.04</td>
+		
+				<td style="text-align:right; width:130px;">33.51</td>
+		
+				<td style="text-align:right; width:130px;">28.94</td>
+		
+		
+	</tr>
+ 
+	
+		
+			<tr  style="display:'' id="Proximates-0" class="odd" >
+		
+		<td style="line-height:110%;text-align:left;width:60px;" >Energy
+		
+		
+		</td>
+		<td style="text-align:center;width: 30px;">kcal</td>
+		<td style="text-align:right;width: 30px;">143</td>
+		
+		
+			
+				<td style="text-align:right; width:130px;">72</td>
+		
+				<td style="text-align:right; width:130px;">80</td>
+		
+				<td style="text-align:right; width:130px;">90</td>
+		
+				<td style="text-align:right; width:130px;">347</td>
+		
+				<td style="text-align:right; width:130px;">63</td>
+		
+				<td style="text-align:right; width:130px;">54</td>
+		
+		
+	</tr>
+ 
+	
+		
+			<tr  style="display:'' id="Proximates-0" class="odd" >
+		
+		<td style="line-height:110%;text-align:left;width:60px;" >Protein
+		
+		
+		</td>
+		<td style="text-align:center;width: 30px;">g</td>
+		<td style="text-align:right;width: 30px;">12.56</td>
+		
+		
+			
+				<td style="text-align:right; width:130px;">6.28</td>
+		
+				<td style="text-align:right; width:130px;">7.03</td>
+		
+				<td style="text-align:right; width:130px;">7.91</td>
+		
+				<td style="text-align:right; width:130px;">30.52</td>
+		
+				<td style="text-align:right; width:130px;">5.53</td>
+		
+				<td style="text-align:right; width:130px;">4.77</td>
+		
+		
+	</tr>
+ 
+	
+		
+			<tr  style="display:'' id="Proximates-0" class="odd" >
+		
+		<td style="line-height:110%;text-align:left;width:60px;" >Total lipid (fat)
+		
+		
+		</td>
+		<td style="text-align:center;width: 30px;">g</td>
+		<td style="text-align:right;width: 30px;">9.51</td>
+		
+		
+			
+				<td style="text-align:right; width:130px;">4.76</td>
+		
+				<td style="text-align:right; width:130px;">5.33</td>
+		
+				<td style="text-align:right; width:130px;">5.99</td>
+		
+				<td style="text-align:right; width:130px;">23.11</td>
+		
+				<td style="text-align:right; width:130px;">4.18</td>
+		
+				<td style="text-align:right; width:130px;">3.61</td>
+		
+		
+	</tr>
+ 
+	
+		
+			<tr  style="display:'' id="Proximates-0" class="odd" >
+		
+		<td style="line-height:110%;text-align:left;width:60px;" >Carbohydrate, by difference
+		
+		
+		</td>
+		<td style="text-align:center;width: 30px;">g</td>
+		<td style="text-align:right;width: 30px;">0.72</td>
+		
+		
+			
+				<td style="text-align:right; width:130px;">0.36</td>
+		
+				<td style="text-align:right; width:130px;">0.40</td>
+		
+				<td style="text-align:right; width:130px;">0.45</td>
+		
+				<td style="text-align:right; width:130px;">1.75</td>
+		
+				<td style="text-align:right; width:130px;">0.32</td>
+		
+				<td style="text-align:right; width:130px;">0.27</td>
+		
+		
+	</tr>
+ 
+	
+		
+			<tr  style="display:'' id="Proximates-0" class="odd" >
+		
+		<td style="line-height:110%;text-align:left;width:60px;" >Fiber, total dietary
+		
+		
+		</td>
+		<td style="text-align:center;width: 30px;">g</td>
+		<td style="text-align:right;width: 30px;">0.0</td>
+		
+		
+			
+				<td style="text-align:right; width:130px;">0.0</td>
+		
+				<td style="text-align:right; width:130px;">0.0</td>
+		
+				<td style="text-align:right; width:130px;">0.0</td>
+		
+				<td style="text-align:right; width:130px;">0.0</td>
+		
+				<td style="text-align:right; width:130px;">0.0</td>
+		
+				<td style="text-align:right; width:130px;">0.0</td>
+		
+		
+	</tr>
+ 
+	
+		
+			<tr  style="display:'' id="Proximates-0" class="odd" >
+		
+		<td style="line-height:110%;text-align:left;width:60px;" >Sugars, total
+		
+		
+		</td>
+		<td style="text-align:center;width: 30px;">g</td>
+		<td style="text-align:right;width: 30px;">0.37</td>
+		
+		
+			
+				<td style="text-align:right; width:130px;">0.18</td>
+		
+				<td style="text-align:right; width:130px;">0.21</td>
+		
+				<td style="text-align:right; width:130px;">0.23</td>
+		
+				<td style="text-align:right; width:130px;">0.90</td>
+		
+				<td style="text-align:right; width:130px;">0.16</td>
+		
+				<td style="text-align:right; width:130px;">0.14</td>
+		
+		
+	</tr>
+ 
+	
+
+	
+		
+		<tr class="even" >
+	    <td style="font-weight:bold"  bgcolor="#dddddd" colspan="11" > Minerals</td>
+	  	</tr>
+	
+	
+	
+	
+		
+			<tr  style="display:'' id="Minerals-0" class="odd" >
+		
+		<td style="line-height:110%;text-align:left;width:60px;" >Calcium, Ca
+		
+		
+		</td>
+		<td style="text-align:center;width: 30px;">mg</td>
+		<td style="text-align:right;width: 30px;">56</td>
+		
+		
+			
+				<td style="text-align:right; width:130px;">28</td>
+		
+				<td style="text-align:right; width:130px;">31</td>
+		
+				<td style="text-align:right; width:130px;">35</td>
+		
+				<td style="text-align:right; width:130px;">136</td>
+		
+				<td style="text-align:right; width:130px;">25</td>
+		
+				<td style="text-align:right; width:130px;">21</td>
+		
+		
+	</tr>
+ 
+	
+		
+			<tr  style="display:'' id="Minerals-0" class="odd" >
+		
+		<td style="line-height:110%;text-align:left;width:60px;" >Iron, Fe
+		
+		
+		</td>
+		<td style="text-align:center;width: 30px;">mg</td>
+		<td style="text-align:right;width: 30px;">1.75</td>
+		
+		
+			
+				<td style="text-align:right; width:130px;">0.88</td>
+		
+				<td style="text-align:right; width:130px;">0.98</td>
+		
+				<td style="text-align:right; width:130px;">1.10</td>
+		
+				<td style="text-align:right; width:130px;">4.25</td>
+		
+				<td style="text-align:right; width:130px;">0.77</td>
+		
+				<td style="text-align:right; width:130px;">0.66</td>
+		
+		
+	</tr>
+ 
+	
+		
+			<tr  style="display:'' id="Minerals-0" class="odd" >
+		
+		<td style="line-height:110%;text-align:left;width:60px;" >Magnesium, Mg
+		
+		
+		</td>
+		<td style="text-align:center;width: 30px;">mg</td>
+		<td style="text-align:right;width: 30px;">12</td>
+		
+		
+			
+				<td style="text-align:right; width:130px;">6</td>
+		
+				<td style="text-align:right; width:130px;">7</td>
+		
+				<td style="text-align:right; width:130px;">8</td>
+		
+				<td style="text-align:right; width:130px;">29</td>
+		
+				<td style="text-align:right; width:130px;">5</td>
+		
+				<td style="text-align:right; width:130px;">5</td>
+		
+		
+	</tr>
+ 
+	
+		
+			<tr  style="display:'' id="Minerals-0" class="odd" >
+		
+		<td style="line-height:110%;text-align:left;width:60px;" >Phosphorus, P
+		
+		
+		</td>
+		<td style="text-align:center;width: 30px;">mg</td>
+		<td style="text-align:right;width: 30px;">198</td>
+		
+		
+			
+				<td style="text-align:right; width:130px;">99</td>
+		
+				<td style="text-align:right; width:130px;">111</td>
+		
+				<td style="text-align:right; width:130px;">125</td>
+		
+				<td style="text-align:right; width:130px;">481</td>
+		
+				<td style="text-align:right; width:130px;">87</td>
+		
+				<td style="text-align:right; width:130px;">75</td>
+		
+		
+	</tr>
+ 
+	
+		
+			<tr  style="display:'' id="Minerals-0" class="odd" >
+		
+		<td style="line-height:110%;text-align:left;width:60px;" >Potassium, K
+		
+		
+		</td>
+		<td style="text-align:center;width: 30px;">mg</td>
+		<td style="text-align:right;width: 30px;">138</td>
+		
+		
+			
+				<td style="text-align:right; width:130px;">69</td>
+		
+				<td style="text-align:right; width:130px;">77</td>
+		
+				<td style="text-align:right; width:130px;">87</td>
+		
+				<td style="text-align:right; width:130px;">335</td>
+		
+				<td style="text-align:right; width:130px;">61</td>
+		
+				<td style="text-align:right; width:130px;">52</td>
+		
+		
+	</tr>
+ 
+	
+		
+			<tr  style="display:'' id="Minerals-0" class="odd" >
+		
+		<td style="line-height:110%;text-align:left;width:60px;" >Sodium, Na
+		
+		
+		</td>
+		<td style="text-align:center;width: 30px;">mg</td>
+		<td style="text-align:right;width: 30px;">142</td>
+		
+		
+			
+				<td style="text-align:right; width:130px;">71</td>
+		
+				<td style="text-align:right; width:130px;">80</td>
+		
+				<td style="text-align:right; width:130px;">89</td>
+		
+				<td style="text-align:right; width:130px;">345</td>
+		
+				<td style="text-align:right; width:130px;">62</td>
+		
+				<td style="text-align:right; width:130px;">54</td>
+		
+		
+	</tr>
+ 
+	
+		
+			<tr  style="display:'' id="Minerals-0" class="odd" >
+		
+		<td style="line-height:110%;text-align:left;width:60px;" >Zinc, Zn
+		
+		
+		</td>
+		<td style="text-align:center;width: 30px;">mg</td>
+		<td style="text-align:right;width: 30px;">1.29</td>
+		
+		
+			
+				<td style="text-align:right; width:130px;">0.64</td>
+		
+				<td style="text-align:right; width:130px;">0.72</td>
+		
+				<td style="text-align:right; width:130px;">0.81</td>
+		
+				<td style="text-align:right; width:130px;">3.13</td>
+		
+				<td style="text-align:right; width:130px;">0.57</td>
+		
+				<td style="text-align:right; width:130px;">0.49</td>
+		
+		
+	</tr>
+ 
+	
+
+	
+		
+		<tr class="even" >
+	    <td style="font-weight:bold"  bgcolor="#dddddd" colspan="11" > Vitamins</td>
+	  	</tr>
+	
+	
+	
+	
+		
+			<tr  style="display:'' id="Vitamins-0" class="odd" >
+		
+		<td style="line-height:110%;text-align:left;width:60px;" >Vitamin C, total ascorbic acid
+		
+		
+		</td>
+		<td style="text-align:center;width: 30px;">mg</td>
+		<td style="text-align:right;width: 30px;">0.0</td>
+		
+		
+			
+				<td style="text-align:right; width:130px;">0.0</td>
+		
+				<td style="text-align:right; width:130px;">0.0</td>
+		
+				<td style="text-align:right; width:130px;">0.0</td>
+		
+				<td style="text-align:right; width:130px;">0.0</td>
+		
+				<td style="text-align:right; width:130px;">0.0</td>
+		
+				<td style="text-align:right; width:130px;">0.0</td>
+		
+		
+	</tr>
+ 
+	
+		
+			<tr  style="display:'' id="Vitamins-0" class="odd" >
+		
+		<td style="line-height:110%;text-align:left;width:60px;" >Thiamin
+		
+		
+		</td>
+		<td style="text-align:center;width: 30px;">mg</td>
+		<td style="text-align:right;width: 30px;">0.040</td>
+		
+		
+			
+				<td style="text-align:right; width:130px;">0.020</td>
+		
+				<td style="text-align:right; width:130px;">0.022</td>
+		
+				<td style="text-align:right; width:130px;">0.025</td>
+		
+				<td style="text-align:right; width:130px;">0.097</td>
+		
+				<td style="text-align:right; width:130px;">0.018</td>
+		
+				<td style="text-align:right; width:130px;">0.015</td>
+		
+		
+	</tr>
+ 
+	
+		
+			<tr  style="display:'' id="Vitamins-0" class="odd" >
+		
+		<td style="line-height:110%;text-align:left;width:60px;" >Riboflavin
+		
+		
+		</td>
+		<td style="text-align:center;width: 30px;">mg</td>
+		<td style="text-align:right;width: 30px;">0.457</td>
+		
+		
+			
+				<td style="text-align:right; width:130px;">0.228</td>
+		
+				<td style="text-align:right; width:130px;">0.256</td>
+		
+				<td style="text-align:right; width:130px;">0.288</td>
+		
+				<td style="text-align:right; width:130px;">1.111</td>
+		
+				<td style="text-align:right; width:130px;">0.201</td>
+		
+				<td style="text-align:right; width:130px;">0.174</td>
+		
+		
+	</tr>
+ 
+	
+		
+			<tr  style="display:'' id="Vitamins-0" class="odd" >
+		
+		<td style="line-height:110%;text-align:left;width:60px;" >Niacin
+		
+		
+		</td>
+		<td style="text-align:center;width: 30px;">mg</td>
+		<td style="text-align:right;width: 30px;">0.075</td>
+		
+		
+			
+				<td style="text-align:right; width:130px;">0.038</td>
+		
+				<td style="text-align:right; width:130px;">0.042</td>
+		
+				<td style="text-align:right; width:130px;">0.047</td>
+		
+				<td style="text-align:right; width:130px;">0.182</td>
+		
+				<td style="text-align:right; width:130px;">0.033</td>
+		
+				<td style="text-align:right; width:130px;">0.028</td>
+		
+		
+	</tr>
+ 
+	
+		
+			<tr  style="display:'' id="Vitamins-0" class="odd" >
+		
+		<td style="line-height:110%;text-align:left;width:60px;" >Vitamin B-6
+		
+		
+		</td>
+		<td style="text-align:center;width: 30px;">mg</td>
+		<td style="text-align:right;width: 30px;">0.170</td>
+		
+		
+			
+				<td style="text-align:right; width:130px;">0.085</td>
+		
+				<td style="text-align:right; width:130px;">0.095</td>
+		
+				<td style="text-align:right; width:130px;">0.107</td>
+		
+				<td style="text-align:right; width:130px;">0.413</td>
+		
+				<td style="text-align:right; width:130px;">0.075</td>
+		
+				<td style="text-align:right; width:130px;">0.065</td>
+		
+		
+	</tr>
+ 
+	
+		
+			<tr  style="display:'' id="Vitamins-0" class="odd" >
+		
+		<td style="line-height:110%;text-align:left;width:60px;" >Folate, DFE
+		
+		
+		</td>
+		<td style="text-align:center;width: 30px;">&micro;g</td>
+		<td style="text-align:right;width: 30px;">47</td>
+		
+		
+			
+				<td style="text-align:right; width:130px;">24</td>
+		
+				<td style="text-align:right; width:130px;">26</td>
+		
+				<td style="text-align:right; width:130px;">30</td>
+		
+				<td style="text-align:right; width:130px;">114</td>
+		
+				<td style="text-align:right; width:130px;">21</td>
+		
+				<td style="text-align:right; width:130px;">18</td>
+		
+		
+	</tr>
+ 
+	
+		
+			<tr  style="display:'' id="Vitamins-0" class="odd" >
+		
+		<td style="line-height:110%;text-align:left;width:60px;" >Vitamin B-12
+		
+		
+		</td>
+		<td style="text-align:center;width: 30px;">&micro;g</td>
+		<td style="text-align:right;width: 30px;">0.89</td>
+		
+		
+			
+				<td style="text-align:right; width:130px;">0.44</td>
+		
+				<td style="text-align:right; width:130px;">0.50</td>
+		
+				<td style="text-align:right; width:130px;">0.56</td>
+		
+				<td style="text-align:right; width:130px;">2.16</td>
+		
+				<td style="text-align:right; width:130px;">0.39</td>
+		
+				<td style="text-align:right; width:130px;">0.34</td>
+		
+		
+	</tr>
+ 
+	
+		
+			<tr  style="display:'' id="Vitamins-0" class="odd" >
+		
+		<td style="line-height:110%;text-align:left;width:60px;" >Vitamin A, RAE
+		
+		
+		</td>
+		<td style="text-align:center;width: 30px;">&micro;g</td>
+		<td style="text-align:right;width: 30px;">160</td>
+		
+		
+			
+				<td style="text-align:right; width:130px;">80</td>
+		
+				<td style="text-align:right; width:130px;">90</td>
+		
+				<td style="text-align:right; width:130px;">101</td>
+		
+				<td style="text-align:right; width:130px;">389</td>
+		
+				<td style="text-align:right; width:130px;">70</td>
+		
+				<td style="text-align:right; width:130px;">61</td>
+		
+		
+	</tr>
+ 
+	
+		
+			<tr  style="display:'' id="Vitamins-0" class="odd" >
+		
+		<td style="line-height:110%;text-align:left;width:60px;" >Vitamin A, IU
+		
+		
+		</td>
+		<td style="text-align:center;width: 30px;">IU</td>
+		<td style="text-align:right;width: 30px;">540</td>
+		
+		
+			
+				<td style="text-align:right; width:130px;">270</td>
+		
+				<td style="text-align:right; width:130px;">302</td>
+		
+				<td style="text-align:right; width:130px;">340</td>
+		
+				<td style="text-align:right; width:130px;">1312</td>
+		
+				<td style="text-align:right; width:130px;">238</td>
+		
+				<td style="text-align:right; width:130px;">205</td>
+		
+		
+	</tr>
+ 
+	
+		
+			<tr  style="display:'' id="Vitamins-0" class="odd" >
+		
+		<td style="line-height:110%;text-align:left;width:60px;" >Vitamin E (alpha-tocopherol)
+		
+		
+		</td>
+		<td style="text-align:center;width: 30px;">mg</td>
+		<td style="text-align:right;width: 30px;">1.05</td>
+		
+		
+			
+				<td style="text-align:right; width:130px;">0.52</td>
+		
+				<td style="text-align:right; width:130px;">0.59</td>
+		
+				<td style="text-align:right; width:130px;">0.66</td>
+		
+				<td style="text-align:right; width:130px;">2.55</td>
+		
+				<td style="text-align:right; width:130px;">0.46</td>
+		
+				<td style="text-align:right; width:130px;">0.40</td>
+		
+		
+	</tr>
+ 
+	
+		
+			<tr  style="display:'' id="Vitamins-0" class="odd" >
+		
+		<td style="line-height:110%;text-align:left;width:60px;" >Vitamin D (D2 + D3)
+		
+		
+		</td>
+		<td style="text-align:center;width: 30px;">&micro;g</td>
+		<td style="text-align:right;width: 30px;">2.0</td>
+		
+		
+			
+				<td style="text-align:right; width:130px;">1.0</td>
+		
+				<td style="text-align:right; width:130px;">1.1</td>
+		
+				<td style="text-align:right; width:130px;">1.3</td>
+		
+				<td style="text-align:right; width:130px;">4.9</td>
+		
+				<td style="text-align:right; width:130px;">0.9</td>
+		
+				<td style="text-align:right; width:130px;">0.8</td>
+		
+		
+	</tr>
+ 
+	
+		
+			<tr  style="display:'' id="Vitamins-0" class="odd" >
+		
+		<td style="line-height:110%;text-align:left;width:60px;" >Vitamin D
+		
+		
+		</td>
+		<td style="text-align:center;width: 30px;">IU</td>
+		<td style="text-align:right;width: 30px;">82</td>
+		
+		
+			
+				<td style="text-align:right; width:130px;">41</td>
+		
+				<td style="text-align:right; width:130px;">46</td>
+		
+				<td style="text-align:right; width:130px;">52</td>
+		
+				<td style="text-align:right; width:130px;">199</td>
+		
+				<td style="text-align:right; width:130px;">36</td>
+		
+				<td style="text-align:right; width:130px;">31</td>
+		
+		
+	</tr>
+ 
+	
+		
+			<tr  style="display:'' id="Vitamins-0" class="odd" >
+		
+		<td style="line-height:110%;text-align:left;width:60px;" >Vitamin K (phylloquinone)
+		
+		
+		</td>
+		<td style="text-align:center;width: 30px;">&micro;g</td>
+		<td style="text-align:right;width: 30px;">0.3</td>
+		
+		
+			
+				<td style="text-align:right; width:130px;">0.2</td>
+		
+				<td style="text-align:right; width:130px;">0.2</td>
+		
+				<td style="text-align:right; width:130px;">0.2</td>
+		
+				<td style="text-align:right; width:130px;">0.7</td>
+		
+				<td style="text-align:right; width:130px;">0.1</td>
+		
+				<td style="text-align:right; width:130px;">0.1</td>
+		
+		
+	</tr>
+ 
+	
+
+	
+	
+		<tr><td style="font-weight:bold;" colspan="11" bgcolor="#dddddd" >Lipids</td></tr>
+	
+	
+	
+	
+		
+			<tr  style="display:'' id="Lipids-0" class="odd" >
+		
+		<td style="line-height:110%;text-align:left;width:60px;" >Fatty acids, total saturated
+		
+		
+		</td>
+		<td style="text-align:center;width: 30px;">g</td>
+		<td style="text-align:right;width: 30px;">3.126</td>
+		
+		
+			
+				<td style="text-align:right; width:130px;">1.563</td>
+		
+				<td style="text-align:right; width:130px;">1.751</td>
+		
+				<td style="text-align:right; width:130px;">1.969</td>
+		
+				<td style="text-align:right; width:130px;">7.596</td>
+		
+				<td style="text-align:right; width:130px;">1.375</td>
+		
+				<td style="text-align:right; width:130px;">1.188</td>
+		
+		
+	</tr>
+ 
+	
+		
+			<tr  style="display:'' id="Lipids-0" class="odd" >
+		
+		<td style="line-height:110%;text-align:left;width:60px;" >Fatty acids, total monounsaturated
+		
+		
+		</td>
+		<td style="text-align:center;width: 30px;">g</td>
+		<td style="text-align:right;width: 30px;">3.658</td>
+		
+		
+			
+				<td style="text-align:right; width:130px;">1.829</td>
+		
+				<td style="text-align:right; width:130px;">2.048</td>
+		
+				<td style="text-align:right; width:130px;">2.305</td>
+		
+				<td style="text-align:right; width:130px;">8.889</td>
+		
+				<td style="text-align:right; width:130px;">1.610</td>
+		
+				<td style="text-align:right; width:130px;">1.390</td>
+		
+		
+	</tr>
+ 
+	
+		
+			<tr  style="display:'' id="Lipids-0" class="odd" >
+		
+		<td style="line-height:110%;text-align:left;width:60px;" >Fatty acids, total polyunsaturated
+		
+		
+		</td>
+		<td style="text-align:center;width: 30px;">g</td>
+		<td style="text-align:right;width: 30px;">1.911</td>
+		
+		
+			
+				<td style="text-align:right; width:130px;">0.956</td>
+		
+				<td style="text-align:right; width:130px;">1.070</td>
+		
+				<td style="text-align:right; width:130px;">1.204</td>
+		
+				<td style="text-align:right; width:130px;">4.644</td>
+		
+				<td style="text-align:right; width:130px;">0.841</td>
+		
+				<td style="text-align:right; width:130px;">0.726</td>
+		
+		
+	</tr>
+ 
+	
+		
+			<tr  style="display:'' id="Lipids-0" class="odd" >
+		
+		<td style="line-height:110%;text-align:left;width:60px;" >Fatty acids, total trans
+		
+		
+		</td>
+		<td style="text-align:center;width: 30px;">g</td>
+		<td style="text-align:right;width: 30px;">0.038</td>
+		
+		
+			
+				<td style="text-align:right; width:130px;">0.019</td>
+		
+				<td style="text-align:right; width:130px;">0.021</td>
+		
+				<td style="text-align:right; width:130px;">0.024</td>
+		
+				<td style="text-align:right; width:130px;">0.092</td>
+		
+				<td style="text-align:right; width:130px;">0.017</td>
+		
+				<td style="text-align:right; width:130px;">0.014</td>
+		
+		
+	</tr>
+ 
+	
+		
+			<tr  style="display:'' id="Lipids-0" class="odd" >
+		
+		<td style="line-height:110%;text-align:left;width:60px;" >Cholesterol
+		
+		
+		</td>
+		<td style="text-align:center;width: 30px;">mg</td>
+		<td style="text-align:right;width: 30px;">372</td>
+		
+		
+			
+				<td style="text-align:right; width:130px;">186</td>
+		
+				<td style="text-align:right; width:130px;">208</td>
+		
+				<td style="text-align:right; width:130px;">234</td>
+		
+				<td style="text-align:right; width:130px;">904</td>
+		
+				<td style="text-align:right; width:130px;">164</td>
+		
+				<td style="text-align:right; width:130px;">141</td>
+		
+		
+	</tr>
+ 
+	
+
+	
+	
+		<tr><td style="font-weight:bold;" colspan="11" bgcolor="#dddddd" >Amino Acids</td></tr>
+	
+	
+	
+	
+
+	
+		
+		<tr class="even" >
+	    <td style="font-weight:bold"  bgcolor="#dddddd" colspan="11" > Other</td>
+	  	</tr>
+	
+	
+	
+	
+		
+			<tr  style="display:'' id="Other-0" class="odd" >
+		
+		<td style="line-height:110%;text-align:left;width:60px;" >Caffeine
+		
+		
+		</td>
+		<td style="text-align:center;width: 30px;">mg</td>
+		<td style="text-align:right;width: 30px;">0</td>
+		
+		
+			
+				<td style="text-align:right; width:130px;">0</td>
+		
+				<td style="text-align:right; width:130px;">0</td>
+		
+				<td style="text-align:right; width:130px;">0</td>
+		
+				<td style="text-align:right; width:130px;">0</td>
+		
+				<td style="text-align:right; width:130px;">0</td>
+		
+				<td style="text-align:right; width:130px;">0</td>
+		
+		
+	</tr>
+ 
+	
+
+
+</tbody>
+</table>
+                
+
+                                
+                                 </div>
+               </form>
+               
+                
+                 
+                    
+            </div>
+           
+       </div>
+       <script>
+       $(function() {
+			$( "#helpDiv" ).dialog({
+				width:500,
+				resizable:true,
+				title: "Modifying household measures",
+				autoOpen: false,
+			});
+			$( "#measures" ).click(function() {
+			$( "#helpDiv" ).dialog( "open" );
+			});
+			});
+       </script>
+    
+ </div>
+        <div class="footer" >
+        
+        
+        	National Nutrient Database for Standard Reference<br/>
+        	Release 28
+        
+			&#160;&#160;Software v.2.3.7.5<br/>
+			 <a href="http://www.nal.usda.gov">The National Agricultural Library</a>
+			 
+		</div>
+		 <script src="/ndb/static/bundle-bundle_application_defer.js" type="text/javascript" ></script>
+
+
+    </body>
+   
+</html>

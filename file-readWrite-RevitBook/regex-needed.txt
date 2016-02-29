@@ -1,0 +1,6 @@
+
+
+http://stackoverflow.com/questions/20515670/replace-n-with-actual-new-line-in-sublime-text
+
+https://forum.sublimetext.com/t/how-to-input-new-line-character-in-find-and-replace-field/6344
+
