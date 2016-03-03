@@ -1,7 +1,11 @@
-fs = require('fs')
+var fs = require('fs');
+var request = require('request');
+var urlOfFood = process.argv[2];
+
+request(urlOfFood).pipe(fs.createWriteStream("food.csv"));
 
 var food = {};                                                               // create a empty food
-var dataIndex = 5;                                                           // the position of the nutrition fact needed
+var dataIndex = 6;                                                           // the position of the nutrition fact neededvar
 
 var name = "Nutrient data for:.*"
 var unit = "Nutrient,Unit,.*"
@@ -10,13 +14,12 @@ var totalFat = "Total lipid.*"
 var saturatedFat = "Fatty acids, total saturated,.*"
 var cholesterol = "Cholesterol,.*"
 
-fs.readFile('egg.csv', 'utf8', function (err,data) {
-	if (err) throw err;
+fs.readFileSync('food.csv', 'utf8') {
 
   var processedFoodStringHaveQuote = data.toString();                        // change data to the string
 	var processedFoodString = processedFoodStringHaveQuote.replace(/"/g, '');  // remove all " 
 
-	food.name = getFoodName(processedFoodString, name) 
+	//food.name = getFoodName(processedFoodString, name) 
 	food.unit = getNutritionData(processedFoodString, unit, dataIndex);
 	food.calory = getNutritionData(processedFoodString, calory, dataIndex);
 	food.totalFat = getNutritionData(processedFoodString, totalFat, dataIndex);
@@ -47,6 +50,8 @@ fs.readFile('egg.csv', 'utf8', function (err,data) {
 	console.log(food);
 
 });
+
+
 
 
 
